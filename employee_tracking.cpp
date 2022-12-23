@@ -96,7 +96,7 @@ main()
 		int maas,sic,mtop=0,j=0,h=0;
 		char y[10],ad[10],sad[10],alan[10];
 		FILE *x;
-		x=fopen("işçiler.txt","r");
+		x=fopen("workers.txt","r");
 		cout<<"  # Başlamadan önce uyarı !!!  "<<endl<<endl<<"  # Büyük harf küçük harf kullanımına dikkat ediniz ve sadece bir adet bilgi girişi yapınız...  ";
 		getch();
 		system("cls");
@@ -143,7 +143,7 @@ main()
 		getch();
 		system("cls");
 		
-		ofstream x("işçiler.txt",ios::app);
+		ofstream x("workers.txt",ios::app);
 		cout<<" Yeni işçinin adı nedir ? >> ";
 		cin>>y;
 		x<<endl<<y<<" ";
@@ -177,7 +177,7 @@ main()
 		int maas[50],sic,mtop=0,j=0;
 		char ad[10],sad[10],alan[10];
 		FILE *x;
-		x=fopen("işçiler.txt","r");
+		x=fopen("workers.txt","r");
 		while(fscanf(x,"%s %s %d %s %d",&ad,&sad,&maas[j],&alan,&sic)!=EOF)
 		{
 			mtop=mtop+maas[j];
@@ -201,7 +201,7 @@ main()
 		char ad[10],sad[10],alan[10];
 		
 		FILE *x;
-		x=fopen("işçiler.txt","r");
+		x=fopen("workers.txt","r");
 		while(fscanf(x,"%s %s %d %s %d",&ad,&sad,&maas[j],&alan,&sic)!=EOF)
 		{
 			j++;
@@ -215,7 +215,7 @@ main()
 		}
 		fclose(x);
 		FILE *k;
-		k=fopen("işçiler.txt","r");
+		k=fopen("workers.txt","r");
 		cout<<"   >> En yüksek maaş = "<<maas[j-1]<<" TL "<<endl<<endl;
 		
 			while(fscanf(k,"%s %s %d %s %d",&ad,&sad,&maas[p],&alan,&sic)!=EOF)
@@ -244,8 +244,8 @@ main()
 		system("color b");
 		system("cls");
 		
-		FILE *x=fopen("işçiler.txt","a+");
-		FILE *y=fopen("işçiler2.txt","a+");
+		FILE *x=fopen("workers.txt","a+");
+		FILE *y=fopen("workers2.txt","a+");
 		cout<<"  >> Çıkış işlemini yapmak istediğiniz işçinin sicil numarasını giriniz. ";
 		cout<<endl<<endl<<"  Sicil NO >>  ";
 		cin>>q;
@@ -259,8 +259,8 @@ main()
 		}
 		fclose(x);
 		fclose(y);
-		remove("işçiler.txt");
-		rename("işçiler2.txt","işçiler.txt");
+		remove("workers.txt");
+		rename("workers2.txt","workers.txt");
 		system("cls");
 		if(h==0)
 		{
@@ -289,7 +289,7 @@ main()
 		int maas,sic,i=1;
 		char ad[10],sad[10],alan[10];
 		FILE *x;
-		x=fopen("işçiler.txt","r");
+		x=fopen("workers.txt","r");
 		while(fscanf(x,"%s %s %d %s %d",&ad,&sad,&maas,&alan,&sic)!=EOF)
 		{
 			cout<<i<<". İşçinin Adı = "<<ad<<" && "<<"Soyadı = "<<sad<<" && "<<"Aldığı Maaş = "<<maas<<" TL && "<<"Çalıştığı Alan = "<<alan<<" && "<<"Sicil Numarası = "<<sic<<endl<<endl;
