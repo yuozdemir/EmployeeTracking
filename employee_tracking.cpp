@@ -10,7 +10,9 @@
 #include<stdlib.h>
 #include<fstream>
 #include<unistd.h>
+
 using namespace std;
+
 main()
 {
 	setlocale(LC_ALL,"Turkish");
@@ -36,12 +38,12 @@ main()
 	cout<<"   # * * * * * * * * * * * * * #               X    X    *     XXXXXX    *     XXXXXX                          "<<endl;
 	cout<<"   # * * * ~ PRODUCER ~  * * * #               X    X          X               X                               "<<endl;
 	cout<<"   # * * * Yusuf OZDEMIR * * * #                XXXXX  X    X  XXXXXX  X    X  XXX                             "<<endl;
-	cout<<"   # * * *   191802055   * * * #                    X  X    X       X  X    X  X       ~GAZI UNIVERSTY~        "<<endl;
+	cout<<"   # * * * @yusufozd3mir * * * #                    X  X    X       X  X    X  X       ~GAZI UNIVERSTY~        "<<endl;
 	cout<<"   # * * * * * * * * * * * * * #               XXXXXX  XXXXXX  XXXXXX  XXXXXX  X       >> Since 1926 <<        "<<endl<<endl<<endl;
 	
 	cout<<"   >> Address _ ANKARA, ALTINDAG, KARAPURCEK, 478.ST, 32/2 <<   "<<endl<<endl;
 	
-	cout<<"   >> Communication _ Tel = 0543 594 00 87 _ Email = encerver2@gmail.com  OR  encerver@hotmail.com <<   "<<endl<<endl<<endl<<endl;
+	cout<<"   >> Communication _ Tel = XXXX XXX XX XX _ Email = xxx@gmail.com  OR  xxx@hotmail.com <<   "<<endl<<endl<<endl<<endl;
 	
 	cout<<"   >> Press any key to start the program <<   ";
 	
@@ -49,11 +51,11 @@ main()
 	
 	system("cls");
 	
-	cout<<"   # Başlamadan önce uyarı !!!"<<endl<<endl<<"   # Öncelikle kapalı beta dadır programımız oluşabilecek teknik hatalardan dolayı özür dileriz."<<endl<<endl;
-	cout<<"   # Hatalar ve öneriler için iletişim kısmındaki bilgilerden bize ulaşabilirsiniz."<<endl<<endl;
-	cout<<"   # Görsellik açısından ingilizce karakter kullanmanızı ve uygulamayı tam ekran moduna almanızı tavsiye ederiz."<<endl<<endl<<"   ______________________________________________";
+	cout<<"   # BaÅŸlamadan Ã¶nce uyarÄ± !!!"<<endl<<endl<<"   # Ã–ncelikle kapalÄ± beta dadÄ±r programÄ±mÄ±z oluÅŸabilecek teknik hatalardan dolayÄ± Ã¶zÃ¼r dileriz."<<endl<<endl;
+	cout<<"   # Hatalar ve Ã¶neriler iÃ§in iletiÅŸim kÄ±smÄ±ndaki bilgilerden bize ulaÅŸabilirsiniz."<<endl<<endl;
+	cout<<"   # GÃ¶rsellik aÃ§Ä±sÄ±ndan ingilizce karakter kullanmanÄ±zÄ± ve uygulamayÄ± tam ekran moduna almanÄ±zÄ± tavsiye ederiz."<<endl<<endl<<"   ______________________________________________";
 	
-	cout<<endl<<endl<<endl<<"   >> Başlamak için herhangi bir tuşa basınız. <<   ";
+	cout<<endl<<endl<<endl<<"   >> BaÅŸlamak iÃ§in herhangi bir tuÅŸa basÄ±nÄ±z. <<   ";
 	
 	getch();
 	
@@ -71,15 +73,15 @@ main()
 	
 	system("color b");
 	
-	cout<<" Merhaba size nasıl yardımcı olabilirim? "<<endl<<endl<<endl;
+	cout<<" Merhaba size nasÄ±l yardÄ±mcÄ± olabilirim? "<<endl<<endl<<endl;
 	
-	cout<<" ( 1 ) İstenilen bölümde veya isimde kayıt aramak ve listelemek  için  >> 1`i  tuşlayınız. "<<endl<<endl;
-	cout<<" ( 2 ) Yeni işçi giriş işlemi  için  >> 2`yi tuşlayınız. "<<endl<<endl;
-	cout<<" ( 3 ) Tüm işçelerin toplamda alacakları maaşları görmek  için  >> 3`ü  tuşlayınız. "<<endl<<endl;
-	cout<<" ( 4 ) En fazla maaş alan kişiyi görmek  için  >> 4`ü  tuşlayınız. "<<endl<<endl;
-	cout<<" ( 5 ) İşçi çıkış işlemleri  için  >> 5`i  tuşlayınız. "<<endl<<endl;
-	cout<<" ( 6 ) İşçiler kayıt dosyasını okumak  için  >> 6`yı tuşlayınız. "<<endl<<endl;
-	cout<<" ( 7 ) Programı kapatmak  için  >> 7`yi tuşlayınız. "<<endl<<endl;
+	cout<<" ( 1 ) Ä°stenilen bÃ¶lÃ¼mde veya isimde kayÄ±t aramak ve listelemek  iÃ§in  >> 1`i  tuÅŸlayÄ±nÄ±z. "<<endl<<endl;
+	cout<<" ( 2 ) Yeni iÅŸÃ§i giriÅŸ iÅŸlemi  iÃ§in  >> 2`yi tuÅŸlayÄ±nÄ±z. "<<endl<<endl;
+	cout<<" ( 3 ) TÃ¼m iÅŸÃ§elerin toplamda alacaklarÄ± maaÅŸlarÄ± gÃ¶rmek  iÃ§in  >> 3`Ã¼  tuÅŸlayÄ±nÄ±z. "<<endl<<endl;
+	cout<<" ( 4 ) En fazla maaÅŸ alan kiÅŸiyi gÃ¶rmek  iÃ§in  >> 4`Ã¼  tuÅŸlayÄ±nÄ±z. "<<endl<<endl;
+	cout<<" ( 5 ) Ä°ÅŸÃ§i Ã§Ä±kÄ±ÅŸ iÅŸlemleri  iÃ§in  >> 5`i  tuÅŸlayÄ±nÄ±z. "<<endl<<endl;
+	cout<<" ( 6 ) Ä°ÅŸÃ§iler kayÄ±t dosyasÄ±nÄ± okumak  iÃ§in  >> 6`yÄ± tuÅŸlayÄ±nÄ±z. "<<endl<<endl;
+	cout<<" ( 7 ) ProgramÄ± kapatmak  iÃ§in  >> 7`yi tuÅŸlayÄ±nÄ±z. "<<endl<<endl;
 	
 	cout<<endl<<"     >>  ";
 	cin>>x;
@@ -94,11 +96,11 @@ main()
 		int maas,sic,mtop=0,j=0,h=0;
 		char y[10],ad[10],sad[10],alan[10];
 		FILE *x;
-		x=fopen("işçiler.txt","r");
-		cout<<"  # Başlamadan önce uyarı !!!  "<<endl<<endl<<"  # Büyük harf küçük harf kullanımına dikkat ediniz ve sadece bir adet bilgi girişi yapınız...  ";
+		x=fopen("iÅŸÃ§iler.txt","r");
+		cout<<"  # BaÅŸlamadan Ã¶nce uyarÄ± !!!  "<<endl<<endl<<"  # BÃ¼yÃ¼k harf kÃ¼Ã§Ã¼k harf kullanÄ±mÄ±na dikkat ediniz ve sadece bir adet bilgi giriÅŸi yapÄ±nÄ±z...  ";
 		getch();
 		system("cls");
-		cout<<"  Merhaba, Kayıtları listelemek ve aramak için isim veya bölüm adı giriniz.  "<<endl;
+		cout<<"  Merhaba, KayÄ±tlarÄ± listelemek ve aramak iÃ§in isim veya bÃ¶lÃ¼m adÄ± giriniz.  "<<endl;
 		cout<<endl<<"  >>  ";
 		cin>>y;
 		system("cls");
@@ -106,7 +108,7 @@ main()
 		{	
 		if(strcmp(ad,y)==0 || strcmp(sad,y)==0 || strcmp(alan,y)==0)
 		{
-			cout<<" İşçinin Adı = "<<ad<<" && "<<"Soyadı = "<<sad<<" && "<<"Aldığı Maaş = "<<maas<<" TL && "<<"Çalıştığı Alan = "<<alan<<" && "<<"Sicil Numarası = "<<sic<<endl<<endl;
+			cout<<" Ä°ÅŸÃ§inin AdÄ± = "<<ad<<" && "<<"SoyadÄ± = "<<sad<<" && "<<"AldÄ±ÄŸÄ± MaaÅŸ = "<<maas<<" TL && "<<"Ã‡alÄ±ÅŸtÄ±ÄŸÄ± Alan = "<<alan<<" && "<<"Sicil NumarasÄ± = "<<sic<<endl<<endl;
 			h++;
 		}
 			j++;
@@ -115,15 +117,15 @@ main()
 		if(h==0)
 		{
 			cout<<endl<<endl;
-  		cout<<"   >> Üzgünüm bu isimde herhangi bir kayıt bulunamadı. <<   "<<endl;
-		cout<<"   >> Başlangıca dönmek için her hangi bir tuşa basınız. <<   ";
+  		cout<<"   >> ÃœzgÃ¼nÃ¼m bu isimde herhangi bir kayÄ±t bulunamadÄ±. <<   "<<endl;
+		cout<<"   >> BaÅŸlangÄ±ca dÃ¶nmek iÃ§in her hangi bir tuÅŸa basÄ±nÄ±z. <<   ";
 		}
 		
 		else
 		{
 		cout<<endl<<endl;
-  		cout<<"   >> Kayıtlar başarılı bir şekilde okundu. <<   "<<endl;
-		cout<<"   >> Başlangıca dönmek için her hangi bir tuşa basınız. <<   ";
+  		cout<<"   >> KayÄ±tlar baÅŸarÄ±lÄ± bir ÅŸekilde okundu. <<   "<<endl;
+		cout<<"   >> BaÅŸlangÄ±ca dÃ¶nmek iÃ§in her hangi bir tuÅŸa basÄ±nÄ±z. <<   ";
 		}
 		getch();
 		goto er0;	
@@ -135,32 +137,32 @@ main()
 		system("color b");
 		system("cls");
 		
-		cout<<"   # Başlamadan önce uyarı kapalı beta aşamasında olan programımızda henüz 2 isim girişi kabul etmemektedir !!!"<<endl<<endl;
-		cout<<"   # Her hangi bir hatayla karşılaşmamak için iki isimli kişilerin sadece bir isminin girilmesi rica olunur.";
-		cout<<endl<<endl<<endl<<"   >> Başlamak için herhangi bir tuşa basınız. <<   ";
+		cout<<"   # BaÅŸlamadan Ã¶nce uyarÄ± kapalÄ± beta aÅŸamasÄ±nda olan programÄ±mÄ±zda henÃ¼z 2 isim giriÅŸi kabul etmemektedir !!!"<<endl<<endl;
+		cout<<"   # Her hangi bir hatayla karÅŸÄ±laÅŸmamak iÃ§in iki isimli kiÅŸilerin sadece bir isminin girilmesi rica olunur.";
+		cout<<endl<<endl<<endl<<"   >> BaÅŸlamak iÃ§in herhangi bir tuÅŸa basÄ±nÄ±z. <<   ";
 		getch();
 		system("cls");
 		
-		ofstream x("işçiler.txt",ios::app);
-		cout<<" Yeni işçinin adı nedir ? >> ";
+		ofstream x("iÅŸÃ§iler.txt",ios::app);
+		cout<<" Yeni iÅŸÃ§inin adÄ± nedir ? >> ";
 		cin>>y;
 		x<<endl<<y<<" ";
-		cout<<" Yeni işçinin soyadı nedir ? >> ";
+		cout<<" Yeni iÅŸÃ§inin soyadÄ± nedir ? >> ";
 		cin>>y;
 		x<<y<<" ";
-		cout<<" Yeni işçinin alacağı maaş kaç TL ? >> ";
+		cout<<" Yeni iÅŸÃ§inin alacaÄŸÄ± maaÅŸ kaÃ§ TL ? >> ";
 		cin>>q;
 		x<<q<<" ";
-		cout<<" Yeni işçinin çalışacağı alan nedir ? >> ";
+		cout<<" Yeni iÅŸÃ§inin Ã§alÄ±ÅŸacaÄŸÄ± alan nedir ? >> ";
 		cin>>y;
 		x<<y<<" ";
-		cout<<" Yeni işçinin '5' haneli sicil numarası ? >> ";
+		cout<<" Yeni iÅŸÃ§inin '5' haneli sicil numarasÄ± ? >> ";
 		cin>>q;
 		x<<q;
 		x.close();
 		cout<<endl<<endl;
-		cout<<"   >> Kayıt başarılı bir şekilde tamamlandı. <<   "<<endl;
-		cout<<"   >> Başlangıca dönmek için her hangi bir tuşa basınız. <<   ";
+		cout<<"   >> KayÄ±t baÅŸarÄ±lÄ± bir ÅŸekilde tamamlandÄ±. <<   "<<endl;
+		cout<<"   >> BaÅŸlangÄ±ca dÃ¶nmek iÃ§in her hangi bir tuÅŸa basÄ±nÄ±z. <<   ";
 		
 		getch();
 		goto er0;
@@ -175,15 +177,15 @@ main()
 		int maas[50],sic,mtop=0,j=0;
 		char ad[10],sad[10],alan[10];
 		FILE *x;
-		x=fopen("işçiler.txt","r");
+		x=fopen("iÅŸÃ§iler.txt","r");
 		while(fscanf(x,"%s %s %d %s %d",&ad,&sad,&maas[j],&alan,&sic)!=EOF)
 		{
 			mtop=mtop+maas[j];
 			j++;
 		}
 		fclose(x);
-		cout<<"   >> Şirketin toplam maaş gideri = "<<mtop<<" TL";
-		cout<<endl<<endl<<"   >> Başlangıca dönmek için her hangi bir tuşa basınız. <<   ";
+		cout<<"   >> Åirketin toplam maaÅŸ gideri = "<<mtop<<" TL";
+		cout<<endl<<endl<<"   >> BaÅŸlangÄ±ca dÃ¶nmek iÃ§in her hangi bir tuÅŸa basÄ±nÄ±z. <<   ";
 		
 		getch();
 		goto er0;	
@@ -199,7 +201,7 @@ main()
 		char ad[10],sad[10],alan[10];
 		
 		FILE *x;
-		x=fopen("işçiler.txt","r");
+		x=fopen("iÅŸÃ§iler.txt","r");
 		while(fscanf(x,"%s %s %d %s %d",&ad,&sad,&maas[j],&alan,&sic)!=EOF)
 		{
 			j++;
@@ -213,21 +215,21 @@ main()
 		}
 		fclose(x);
 		FILE *k;
-		k=fopen("işçiler.txt","r");
-		cout<<"   >> En yüksek maaş = "<<maas[j-1]<<" TL "<<endl<<endl;
+		k=fopen("iÅŸÃ§iler.txt","r");
+		cout<<"   >> En yÃ¼ksek maaÅŸ = "<<maas[j-1]<<" TL "<<endl<<endl;
 		
 			while(fscanf(k,"%s %s %d %s %d",&ad,&sad,&maas[p],&alan,&sic)!=EOF)
 		{
 			if(maas[j]==maas[p])
 			{
-				cout<<"   >> En yüksek maaşı alan "<<o<<". kişi = "<<endl;
-				cout<<"   >> Adı = "<<ad<<" && Soyadı = "<<sad<<"  "<<endl<<endl;
+				cout<<"   >> En yÃ¼ksek maaÅŸÄ± alan "<<o<<". kiÅŸi = "<<endl;
+				cout<<"   >> AdÄ± = "<<ad<<" && SoyadÄ± = "<<sad<<"  "<<endl<<endl;
 				o++;
 			}
 			p++;
 		}
 		fclose(k);
-		cout<<endl<<endl<<"   >> Başlangıca dönmek için her hangi bir tuşa basınız. <<   ";
+		cout<<endl<<endl<<"   >> BaÅŸlangÄ±ca dÃ¶nmek iÃ§in her hangi bir tuÅŸa basÄ±nÄ±z. <<   ";
 		
 		getch();	
 		goto er0;	
@@ -242,9 +244,9 @@ main()
 		system("color b");
 		system("cls");
 		
-		FILE *x=fopen("işçiler.txt","a+");
-		FILE *y=fopen("işçiler2.txt","a+");
-		cout<<"  >> Çıkış işlemini yapmak istediğiniz işçinin sicil numarasını giriniz. ";
+		FILE *x=fopen("iÅŸÃ§iler.txt","a+");
+		FILE *y=fopen("iÅŸÃ§iler2.txt","a+");
+		cout<<"  >> Ã‡Ä±kÄ±ÅŸ iÅŸlemini yapmak istediÄŸiniz iÅŸÃ§inin sicil numarasÄ±nÄ± giriniz. ";
 		cout<<endl<<endl<<"  Sicil NO >>  ";
 		cin>>q;
 		while(fscanf(x,"%s %s %d %s %d",&ad,&sad,&maas,&alan,&sic)!=EOF)
@@ -257,21 +259,21 @@ main()
 		}
 		fclose(x);
 		fclose(y);
-		remove("işçiler.txt");
-		rename("işçiler2.txt","işçiler.txt");
+		remove("iÅŸÃ§iler.txt");
+		rename("iÅŸÃ§iler2.txt","iÅŸÃ§iler.txt");
 		system("cls");
 		if(h==0)
 		{
 		cout<<endl<<endl;
-		cout<<"   >> İşçi bulunamadı sicil numarasına dikkat edip tekrar deneyiniz. <<   "<<endl;
-		cout<<"   >> Başlangıca dönmek için her hangi bir tuşa basınız. <<   ";
+		cout<<"   >> Ä°ÅŸÃ§i bulunamadÄ± sicil numarasÄ±na dikkat edip tekrar deneyiniz. <<   "<<endl;
+		cout<<"   >> BaÅŸlangÄ±ca dÃ¶nmek iÃ§in her hangi bir tuÅŸa basÄ±nÄ±z. <<   ";
 		}
 		
 		else
 		{
 		cout<<endl<<endl;
-		cout<<"   >> İşçinin çıkış işlemi başarılı bir şekilde gerçekleştirilmiştir <<   "<<endl;
-		cout<<"   >> Başlangıca dönmek için her hangi bir tuşa basınız. <<   ";
+		cout<<"   >> Ä°ÅŸÃ§inin Ã§Ä±kÄ±ÅŸ iÅŸlemi baÅŸarÄ±lÄ± bir ÅŸekilde gerÃ§ekleÅŸtirilmiÅŸtir <<   "<<endl;
+		cout<<"   >> BaÅŸlangÄ±ca dÃ¶nmek iÃ§in her hangi bir tuÅŸa basÄ±nÄ±z. <<   ";
 		}
 		
 		getch();
@@ -287,16 +289,16 @@ main()
 		int maas,sic,i=1;
 		char ad[10],sad[10],alan[10];
 		FILE *x;
-		x=fopen("işçiler.txt","r");
+		x=fopen("iÅŸÃ§iler.txt","r");
 		while(fscanf(x,"%s %s %d %s %d",&ad,&sad,&maas,&alan,&sic)!=EOF)
 		{
-			cout<<i<<". İşçinin Adı = "<<ad<<" && "<<"Soyadı = "<<sad<<" && "<<"Aldığı Maaş = "<<maas<<" TL && "<<"Çalıştığı Alan = "<<alan<<" && "<<"Sicil Numarası = "<<sic<<endl<<endl;
+			cout<<i<<". Ä°ÅŸÃ§inin AdÄ± = "<<ad<<" && "<<"SoyadÄ± = "<<sad<<" && "<<"AldÄ±ÄŸÄ± MaaÅŸ = "<<maas<<" TL && "<<"Ã‡alÄ±ÅŸtÄ±ÄŸÄ± Alan = "<<alan<<" && "<<"Sicil NumarasÄ± = "<<sic<<endl<<endl;
 			i++;
 		}
 		fclose(x);
 		cout<<endl<<endl;
-  		cout<<"   >> Dosya başarılı bir şekilde okundu. <<   "<<endl;
-		cout<<"   >> Başlangıca dönmek için her hangi bir tuşa basınız. <<   ";
+  		cout<<"   >> Dosya baÅŸarÄ±lÄ± bir ÅŸekilde okundu. <<   "<<endl;
+		cout<<"   >> BaÅŸlangÄ±ca dÃ¶nmek iÃ§in her hangi bir tuÅŸa basÄ±nÄ±z. <<   ";
 		
 		getch();
 		goto er0;
@@ -310,13 +312,13 @@ main()
 		for(int i=1;i<=3;i++)
 		{
 		system("cls");
-		cout<<" Program sonlandırılıyor iyi günler. ";
+		cout<<" Program sonlandÄ±rÄ±lÄ±yor iyi gÃ¼nler. ";
 		cout<<endl<<endl;
 		cout<<"   "<<4-i;
 		sleep(1);
 		}
 		system("cls");
-		cout<<endl<<endl<<"  PROGRAM SONLANDIRILDI  "<<endl<<endl<<"  Yusuf Holding İyi Günler Diler..."<<endl<<endl<<endl<<endl<<endl;
+		cout<<endl<<endl<<"  PROGRAM SONLANDIRILDI  "<<endl<<endl<<"  Yusuf Holding Ä°yi GÃ¼nler Diler..."<<endl<<endl<<endl<<endl<<endl;
 		break;
 		}
 	}
